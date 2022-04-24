@@ -66,6 +66,7 @@ Since department and salary_range have a lot of missing data (64.6% and 84.0% re
 
 ### Textual Analysis
 ![word cloud for fraudulent](https://user-images.githubusercontent.com/104303593/164986104-0e2bb4ad-bd73-43f5-a810-fbaa4c99f605.png)
+
 ![world cloud for not fraudulent](https://user-images.githubusercontent.com/104303593/164986119-7e7cca7d-2cfb-44e5-b925-90c59b505868.png)
 
 For our textual data, we used word clouds to visualise the frequency of words appearing. For non-fraudulent postings, words like “work”, “customer” and “ experience” appeared most frequently. On the other hand, for fraudulent job postings, words like "customer service", "communication skills", "years experience" and "social media" appeared more frequently. This clear distinction in word usage between the 2 shows us that text is in fact an important factor for classification. 
