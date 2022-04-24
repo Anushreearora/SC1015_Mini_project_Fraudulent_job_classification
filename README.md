@@ -100,9 +100,9 @@ The model is run on the test data to see how it performs based on various metric
 
 ## Categorical classification model
 
-Firstly we created  a forest_test function, using this we were able to separate our input data into training and test sets. We used a 30:70 ratio where we obtain 70% of the training sets from the main input and the remaining 30% made up the test sets.  
+Firstly using get_dummies on pandas, we were able to manipulate and convert our categorical data into dummy variables based on the number of categories each variable had and we ended up with 204 dummy categories 
 
-Next, using get_dummies on pandas, we were able to manipulate and convert our categorical data into dummy variables based on the number of categories each variable had and we ended up with 204 dummy categories
+Next, we created  a forest_test function, using this we were able to separate our input data into training and test sets. We used a 30:70 ratio where we obtain 70% of the training sets from the main input and the remaining 30% made up the test sets.
 
 We then planned to use a random forest classifier which grows multiple decision trees which are merged together for a more accurate prediction. The logic behind the Random Forest model is that multiple uncorrelated models (the individual decision trees) perform much better as a group than they do alone especially when there is low (or no) correlation between the individual decision trees which in our case are formed using our categorical data that are broken down into dummy categories. The predictions are either fraudulent or non-fraudulent and the random forest classifiers eventually takes the average of these predictions to make its prediction. 
 
