@@ -42,15 +42,19 @@ From primary analysis, we know that the data have the following types;
     function: Categorical
 
 ![% of fraudulent postings by telecommuting](https://user-images.githubusercontent.com/104303593/164986018-212b68eb-b6a9-4501-825b-c915b7b8e240.png)
+
 Jobs that allow for telecommuting are twice as likely of being fraudulent.  
 
 ![% of fraudulent postings by company logo](https://user-images.githubusercontent.com/104303593/164986042-6ce3358b-3b33-4aaa-8dd8-51f0b3ab161c.png)
+
 Job postings without a company logo are 8 times more likely of being a fraud.
 
 ![% of fraudulent postings by employment type](https://user-images.githubusercontent.com/104303593/164986066-e3490a66-3b56-4e7e-8d2d-1359aff66cc3.png)
+
 Part-time employment postings have the highest occurrence of being fraudulent, followed second by other employment types and third by full-time employment.
 
 ![% of fraudulent postings by required education](https://user-images.githubusercontent.com/104303593/164986085-4315e721-4ea3-4d6e-be1c-92999fe1482a.png)
+
 We can also see that almost 70% of postings that require some high school coursework is a fraud posting. Certification is also high, at about 10%. 
 
 We drew a few conclusions from the EDA:
